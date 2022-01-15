@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeterReading.API", "src\MeterReading.API\MeterReading.API.csproj", "{7374E7C1-C705-4DF2-A1D3-B3B5A15B5E9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0A70D49E-0E3E-415B-9D16-C41642B7E923}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{83D522E2-A85E-4C2C-9CCB-B4A140954ED1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeterReading.Application", "src\MeterReading.Application\MeterReading.Application.csproj", "{8FF46465-4BDA-45E5-A480-EC75AD018460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterReading.Domain", "src\MeterReading.Domain\MeterReading.Domain.csproj", "{4E6A3B87-8331-4BEF-A645-EF7B6FA074A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterReading.Infrastructure", "src\MeterReading.Infrastructure\MeterReading.Infrastructure.csproj", "{447B4EF2-A33F-4BB8-B366-16B667B713CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterReading.Application.UnitTests", "tests\MeterReading.Application.UnitTests\MeterReading.Application.UnitTests.csproj", "{54C5713B-BDCB-4A30-8E6D-F9BF52C055DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7374E7C1-C705-4DF2-A1D3-B3B5A15B5E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7374E7C1-C705-4DF2-A1D3-B3B5A15B5E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7374E7C1-C705-4DF2-A1D3-B3B5A15B5E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7374E7C1-C705-4DF2-A1D3-B3B5A15B5E9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FF46465-4BDA-45E5-A480-EC75AD018460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FF46465-4BDA-45E5-A480-EC75AD018460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FF46465-4BDA-45E5-A480-EC75AD018460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FF46465-4BDA-45E5-A480-EC75AD018460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E6A3B87-8331-4BEF-A645-EF7B6FA074A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E6A3B87-8331-4BEF-A645-EF7B6FA074A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E6A3B87-8331-4BEF-A645-EF7B6FA074A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E6A3B87-8331-4BEF-A645-EF7B6FA074A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{447B4EF2-A33F-4BB8-B366-16B667B713CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447B4EF2-A33F-4BB8-B366-16B667B713CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447B4EF2-A33F-4BB8-B366-16B667B713CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447B4EF2-A33F-4BB8-B366-16B667B713CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54C5713B-BDCB-4A30-8E6D-F9BF52C055DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C5713B-BDCB-4A30-8E6D-F9BF52C055DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C5713B-BDCB-4A30-8E6D-F9BF52C055DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C5713B-BDCB-4A30-8E6D-F9BF52C055DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7374E7C1-C705-4DF2-A1D3-B3B5A15B5E9D} = {0A70D49E-0E3E-415B-9D16-C41642B7E923}
+		{8FF46465-4BDA-45E5-A480-EC75AD018460} = {0A70D49E-0E3E-415B-9D16-C41642B7E923}
+		{4E6A3B87-8331-4BEF-A645-EF7B6FA074A9} = {0A70D49E-0E3E-415B-9D16-C41642B7E923}
+		{447B4EF2-A33F-4BB8-B366-16B667B713CF} = {0A70D49E-0E3E-415B-9D16-C41642B7E923}
+		{54C5713B-BDCB-4A30-8E6D-F9BF52C055DB} = {83D522E2-A85E-4C2C-9CCB-B4A140954ED1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4EFE854-F914-48F6-9E44-2C0480B17D8E}
+	EndGlobalSection
+EndGlobal
